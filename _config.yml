@@ -1,9 +1,9 @@
 # Where things are
 source:      .
 destination: ./_site
-plugins:     ./_plugins
-layouts:     ./_layouts
-data_source: ./_data
+plugins_dir:     ./_plugins
+layouts_dir:     ./_layouts
+data_dir: ./_data
 collections: null
 
 # Handling Reading
@@ -22,7 +22,7 @@ unpublished: false
 
 # Plugins
 whitelist: []
-gems:      []
+gems:      [jekyll-paginate]
 
 # Conversion
 markdown:    kramdown
